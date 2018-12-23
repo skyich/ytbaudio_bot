@@ -2,7 +2,7 @@ require 'telegram/bot'
 require 'open-uri'
 require 'down'
 
-TOKEN = '752419982:AAHdSAz39JYbXJPmHokRy_lNr2TXeAODQRY'
+TOKEN = 'YOUR BOT TOKEN'
 
 #скачиваем и разделяем аудио на равные части по ~ 50 мб
 def split_audio(uri, song_name, size)
